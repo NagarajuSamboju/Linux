@@ -1,5 +1,6 @@
 #!/bin/bash
 echo "Hello $user"
-echo " hey i'm $user i will be telling oyu the current process"
+read username $user
+echo " hey i'm  $user i will be telling you the current process"
 echo " current running process list"
 ps
